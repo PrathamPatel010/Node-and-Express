@@ -1,0 +1,17 @@
+In Node, There is no window object because there is no browser.Node is used to write server side application. But there are global variables. Global variables means you can access them anywhere in your application. 
+So,no matter how complex your application is, you can always have access to global variables. Here are some of the Global variables: 
+
+console: It provides a way to log information to the console, including debugging messages, error messages, and general information about your program's execution.
+
+__dirname - used to get the path of to this directory 
+e.g. dir1/dir2/ 
+
+__filename - it is used to get the directory path with the file name 
+e.g. dir1/dir2/app.js
+
+require - it is a function to use modules (CommonJS) 
+
+module - it gives us the information about the current module program 
+
+process - it gives information about the environment where out program is being executed. 
+It is important, As the environment we are writing our programme and the environment in which it is deployed will be different. So you can make some decisions.

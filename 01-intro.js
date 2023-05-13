@@ -4,5 +4,4 @@ if (num < 10) {
 } else {
     console.log("Large number")
 }
-
 console.log(`Hey, It's my first node application`)
