@@ -1,0 +1,12 @@
+Why package.json is important file?
+
+Suppose, We share our code on github. Now it's a good practice to not track and push 'node_modules' folder to github repo.
+So, our application is developed. but if someone download OR clone our repo to use application. It will not run.
+Because it need some modules / dependencies.
+
+So, package.json file keep the information about the project as well as all the dependencies that have been installed
+during application development. And this 'package.json' file will be there in the repo.
+
+Now, If someone clone OR download the repository, all that person need to do is run the following command:
+'npm install'.
+And It will install all the dependencies that were used in application.

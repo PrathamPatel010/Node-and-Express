@@ -1,0 +1,23 @@
+npm (Node Package Manager) is a tool that comes with Node.js and allows you to easily manage and install packages (libraries and modules) for your JavaScript projects. 
+It acts as a central repository where developers can publish and share their code with others.
+In simpler terms, think of npm as a huge online store for JavaScript code. 
+
+When you need a particular functionality in your project, instead of writing it from scratch, you can search for a package on npm that already provides that functionality. 
+You can then install that package in your project with a simple command.
+npm helps you avoid reinventing the wheel by providing access to a wide range of ready-to-use code that other developers have created and shared. 
+These packages can help you add features, solve common problems, and speed up your development process.
+
+To use npm, you typically initialize your project by creating a `package.json` file that lists the dependencies (packages) your project requires. 
+You can then run `npm install` to automatically download and install all the required packages. 
+npm takes care of fetching the packages from the registry, resolving dependencies, and setting up the project to use those packages.
+
+In addition to managing packages, npm also provides other features like publishing your own packages, updating packages, and running scripts defined in the `package.json` file.
+Overall, npm simplifies the process of finding, installing, and managing JavaScript packages, saving you time and effort while building your projects.
+It promotes code reuse and collaboration within the JavaScript community, making it easier for developers to share and benefit from each other's work.
+
+At the end of day : package, dependencies, modules they all mean the same thing.
+There is no quality control on NPM. Anyone can publish anything. So, it's your job to sniff out useless and useful modules.
+
+You can install packages as local dependency and global dependency.
+Local - You can use it only within the project.
+Global - You can use it in any project.
