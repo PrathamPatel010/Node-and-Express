@@ -1,5 +1,4 @@
 Why package.json is important file?
-
 Suppose, We share our code on github. Now it's a good practice to not track and push 'node_modules' folder to github repo.
 So, our application is developed. but if someone download OR clone our repo to use application. It will not run.
 Because it need some modules / dependencies.
@@ -10,3 +9,9 @@ during application development. And this 'package.json' file will be there in th
 Now, If someone clone OR download the repository, all that person need to do is run the following command:
 'npm install'.
 And It will install all the dependencies that were used in application.
+
+Why there is package-lock.json?
+This file will be automatically generated when you will install a node module. It provide detailed and fixed snapshot of 
+exact package versions and dependencies that were used. 
+This ensures that if someone else will install dependencies, they will install the dependencies with the exact same versions.
+So, All contributers will have same set of packages installed.
