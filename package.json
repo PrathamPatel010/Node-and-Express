@@ -1,23 +1,26 @@
 {
-  "name": "04-node-and-express",
-  "version": "1.0.0",
-  "description": "",
-  "main": "01-intro.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PrathamPatel010/Node-and-Express.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/PrathamPatel010/Node-and-Express/issues"
-  },
-  "homepage": "https://github.com/PrathamPatel010/Node-and-Express#readme",
-  "dependencies": {
-    "lodash": "^4.17.21"
-  }
+    "name": "04-node-and-express",
+    "version": "1.0.0",
+    "description": "",
+    "main": "01-intro.js",
+    "scripts": {
+        "start": "nodemon 13-app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/PrathamPatel010/Node-and-Express.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/PrathamPatel010/Node-and-Express/issues"
+    },
+    "homepage": "https://github.com/PrathamPatel010/Node-and-Express#readme",
+    "dependencies": {
+        "lodash": "^4.17.21"
+    },
+    "devDependencies": {
+        "nodemon": "2.0.22"
+    }
 }

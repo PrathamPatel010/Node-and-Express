@@ -1,0 +1,18 @@
+Nodemon is a development tool for Node.js that helps you automatically restart your Node.js application whenever there are changes in your code. 
+It saves you from manually stopping and starting your application every time you make a code change, making the development process more efficient.
+
+In simpler terms, Nodemon keeps an eye on your Node.js application, and whenever you save changes to your code files, it automatically restarts your application so that you can immediately see the updates without having to manually restart the server. 
+This eliminates the need to repeatedly run commands like `node app.js` whenever you make changes.
+Nodemon is especially useful during development as it helps speed up the feedback loop, allowing you to quickly see the impact of your code changes. 
+It helps streamline the development workflow by reducing the manual steps involved in restarting the application after code modifications.
+
+To use Nodemon, you typically install it globally on your machine using the command `npm install -g nodemon`. 
+Then, instead of running your Node.js application with `node app.js`, you can use `nodemon app.js` to start your application. 
+Nodemon will monitor the file system and automatically restart your application whenever there are changes.
+
+Overall, Nodemon is a handy tool that enhances the development experience by automating the process of restarting your Node.js application when code changes occur
+Which enables you to focus more on coding and less on manually restarting the server.
+
+Also, It is good practice to install nodemon as DevDependency. Because It has nothing to do with running application.
+It is not the dependency which app will use while running.
+It is a tool which helps us in making development process faster.
