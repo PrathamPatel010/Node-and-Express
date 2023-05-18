@@ -1,0 +1,15 @@
+In Node.js, event emitters are a core feature that allows objects to emit and listen for events. 
+Here's a simplified explanation:
+
+1. An event emitter in Node.js is like a radio station broadcasting events.
+
+2. Any part of your code can subscribe to these events by registering itself as a listener.
+
+3. When an event occurs, the event emitter broadcasts it to all the subscribed listeners.
+
+4. Each listener can perform specific actions or respond to the event in its own way.
+
+5. This mechanism enables different parts of your Node.js application to communicate and coordinate with each other by emitting and listening for events.
+
+Overall, event emitters provide a flexible and efficient way to implement event-driven programming in Node.js, 
+allowing for decoupled and modular code that can easily respond to and handle various events within your application.
